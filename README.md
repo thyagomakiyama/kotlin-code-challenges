@@ -28,6 +28,7 @@ Each challenge folder contains:
    ```
 2.	Navigate to the project folder.
 3.	Run the solution using Gradle:
+ 
     ```bash
-    ./gradlew run --args='path/to/solution.kt'
+    ./gradlew run -PmainClass='name.package.SolutionKt' --warning-mode all
     ```
