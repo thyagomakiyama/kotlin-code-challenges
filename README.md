@@ -27,8 +27,13 @@ Each challenge folder contains:
    git clone https://github.com/thyagomakiyama/kotlin-code-challenges.git
    ```
 2.	Navigate to the project folder.
-3.	Run the solution using Gradle:
+3.	Run all test suit using Gradle:
  
     ```bash
-    ./gradlew run -PmainClass='name.package.SolutionKt' --warning-mode all
+    ./gradlew test
+    ```
+4.  Run specific test suit using Gradle:
+ 
+    ```bash
+    ./gradlew test --tests "package_name.*"
     ```
